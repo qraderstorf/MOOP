@@ -1,0 +1,11 @@
+{
+  "name": "MOOP",
+  "description": "Leave No Trace. Anywhere. — MOOP community street cleanup and walk logging feed.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

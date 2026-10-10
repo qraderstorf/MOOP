@@ -1,0 +1,26 @@
+<svg viewBox="0 0 120 120" width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular Dark Forest Green Emblem -->
+  <circle cx="60" cy="60" r="58" fill="#0d2b1d" />
+  
+  <!-- Stylized O with Botanical Leaf in Counter -->
+  <defs>
+    <mask id="fav-mask">
+      <rect width="120" height="120" fill="white" />
+      <path 
+        d="M 53 77 C 46 70 44 56 50 46 C 54 39 60 35 66 34 C 67 38 71 50 69 60 C 66 71 60 77 53 77 Z" 
+        fill="black" 
+      />
+    </mask>
+  </defs>
+
+  <circle cx="60" cy="60" r="34" fill="#f7f5ee" mask="url(#fav-mask)" />
+  
+  <!-- Leaf Vein -->
+  <path 
+    d="M 53 77 C 57 68 61 55 66 34" 
+    stroke="#f7f5ee" 
+    stroke-width="2.4" 
+    stroke-linecap="round" 
+    fill="none" 
+  />
+</svg>

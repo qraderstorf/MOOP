@@ -1,0 +1,35 @@
+{
+  "entities": {
+    "Post": {
+      "collection": "posts",
+      "fields": {
+        "id": { "type": "string" },
+        "authorId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "authorAvatar": { "type": "string" },
+        "city": { "type": "string" },
+        "streetsCleaned": { "type": "string" },
+        "streets": { "type": "array", "optional": true },
+        "cleanupDate": { "type": "string", "optional": true },
+        "mostCommonMoop": { "type": "string", "optional": true },
+        "cleanliness": { "type": "string" },
+        "photoUrl": { "type": "string", "optional": true },
+        "notes": { "type": "string", "optional": true },
+        "createdAt": { "type": "string" },
+        "timestamp": { "type": "number" },
+        "likes": { "type": "number" }
+      }
+    },
+    "User": {
+      "collection": "users",
+      "fields": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "city": { "type": "string" },
+        "email": { "type": "string" },
+        "avatarUrl": { "type": "string" },
+        "createdAt": { "type": "number" }
+      }
+    }
+  }
+}
